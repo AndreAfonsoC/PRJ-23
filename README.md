@@ -74,7 +74,7 @@ Após ter feito suas mudanças, faça o seguinte para upar para a branch main:
   ```bash
   git checkout main
   git pull origin main
-  git merge <nome da sua branch>>
+  git merge <nome da sua branch>
   ```
 Resolva conflitos se houver
   ```bash
