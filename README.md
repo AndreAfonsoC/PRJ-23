@@ -70,3 +70,13 @@ La embaixo (barra azul na parte de baixo do vs code) você vê qual branch está
 É possível mudar de branch clicando-se na janela com o nome da sua branch atual.
 Além disso, clicando nessa janela você consegue criar novas branchs.
 
+Após ter feito suas mudanças, faça o seguinte para upar para a branch main:
+  ```bash
+  git checkout main
+  git pull origin main
+  git merge <nome da sua branch>>
+  ```
+Resolva conflitos se houver
+  ```bash
+  git push origin main
+  ```
